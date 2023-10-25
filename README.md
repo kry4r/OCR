@@ -16,10 +16,7 @@ pip install requirements.txt
 
 ![image-20231025161344956](README.assets/image-20231025161344956.png)
 
-​																						选择图片后系统自动运行，图片将会呈现在下方
+4.选择图片后点击开始识别，系统运行，图片将会呈现在下方，点击保存图片可保存识别后结果
 
+![image-20231025195026561](README.assets/image-20231025195026561.png)
 
-
-
-
-![image-20231025161645110](README.assets/image-20231025161645110.png)

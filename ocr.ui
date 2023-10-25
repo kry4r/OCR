@@ -17,8 +17,8 @@
    <widget class="QWidget" name="horizontalLayoutWidget_4">
     <property name="geometry">
      <rect>
-      <x>860</x>
-      <y>110</y>
+      <x>840</x>
+      <y>50</y>
       <width>571</width>
       <height>105</height>
      </rect>
@@ -133,14 +133,40 @@
    <widget class="QLabel" name="label">
     <property name="geometry">
      <rect>
-      <x>100</x>
-      <y>260</y>
-      <width>1331</width>
-      <height>681</height>
+      <x>50</x>
+      <y>270</y>
+      <width>1581</width>
+      <height>721</height>
      </rect>
     </property>
     <property name="text">
      <string/>
+    </property>
+   </widget>
+   <widget class="PrimaryPushButton" name="PrimaryPushButton">
+    <property name="geometry">
+     <rect>
+      <x>840</x>
+      <y>180</y>
+      <width>153</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>开始识别</string>
+    </property>
+   </widget>
+   <widget class="PrimaryPushButton" name="PrimaryPushButton_2">
+    <property name="geometry">
+     <rect>
+      <x>1050</x>
+      <y>180</y>
+      <width>153</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>保存图片</string>
     </property>
    </widget>
   </widget>
@@ -160,6 +186,11 @@
   <customwidget>
    <class>PushButton</class>
    <extends>QPushButton</extends>
+   <header>qfluentwidgets</header>
+  </customwidget>
+  <customwidget>
+   <class>PrimaryPushButton</class>
+   <extends>PushButton</extends>
    <header>qfluentwidgets</header>
   </customwidget>
   <customwidget>
